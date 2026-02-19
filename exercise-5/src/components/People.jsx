@@ -6,10 +6,10 @@ export default function People({people}) {
       </div>
       <h2 className="people-name">{people.name}</h2>
       <div className="mid">
-        <p className="people-gender">Gender: {people.gender}</p>
-        <p className="people-address">Address: {people.address}</p>
-        <p className="people-hobby">Hobbies: {people.hobby.join(", ")}</p>
-        <p className="people-description">{people.description}</p>
+        <p>Gender: {people.gender}</p>
+        <p>Address: {people.address}</p>
+        <p>Hobbies: {people.hobby.join(", ")}</p>
+        <p>{people.description}</p>
       </div>
       <button className="people-button">Learn More</button>
     </li>
